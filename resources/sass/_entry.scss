@@ -1,0 +1,20 @@
+.entry{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 40px;
+}
+
+.entry__header{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.entry__footer{
+    margin-top: 20px;
+}
+
+@media screen and (min-width : 768px){
+    .entry{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

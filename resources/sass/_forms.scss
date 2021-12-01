@@ -1,0 +1,22 @@
+.form__box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.form__input{
+    text-align: center;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+
+.error-block{
+    background-color: var(--color-errors);
+    width: 50%;
+    align-self: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
